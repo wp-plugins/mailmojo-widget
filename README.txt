@@ -1,5 +1,5 @@
 === MailMojo Widget ===
-Contributors: stianpr
+Contributors: stianpr, asteinlein
 Tags: mailmojo, newsletter, newsletters, mailing list, widget, email marketing, email
 Requires at least: 3.0.0
 Tested up to: 3.2.1
