@@ -1,5 +1,5 @@
 <?php
-/*  Copyright 2011  Eliksir AS  (email : post@e5r.no)
+/*  Copyright 2013  Eliksir AS  (email : post@e5r.no)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
@@ -243,7 +243,7 @@ HTML;
 			$tags = explode(',', $instance['tags']);
 			$output .= "<ul class=\"field\">\n";
 			foreach ($tags as $tag) {
-				$t = ucfirst(mb_strtolower($tag));
+				$t = ucfirst(mb_strtolower(trim($tag)));
 				$output .= <<<HTML
 <li>
 	<label>

@@ -1,9 +1,11 @@
 === MailMojo Widget ===
 Contributors: stianpr, asteinlein
-Tags: mailmojo, newsletter, newsletters, mailing list, widget, email marketing, email, nyhetsbrev, e-post nyhetsbrev, e-post markedsføring
+Tags: mailmojo, newsletter, newsletters, mailing list, signup, subscribe, widget, email, email marketing, email
 Requires at least: 3.0.0
-Tested up to: 3.5.1
-Stable tag: 0.3
+Tested up to: 3.6.1
+Stable tag: 0.3.1
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Adds a signup widget for a MailMojo mailing list to your WordPress site.
 
@@ -36,6 +38,10 @@ This plugin requires the PHP curl extension.
 2. You will see the signup form in your sidebar.
 
 == Changelog ==
+
+= 0.3.1 =
+* Tested and verified for WordPress 3.6.1
+* Fixed a bug with capitalizing first char in tags
 
 = 0.3 =
 * Widget can now be used on PHP 5.2 or greater.
